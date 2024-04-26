@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import Movie from "./Movie";
+import Movie from "../components/Movie/Movie";
 
 export default function MovieApp() {
   const [loading, setLoading] = useState(true);
